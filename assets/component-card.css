@@ -663,15 +663,22 @@
   align-items: center;
 }
 
-@media screen and (max-width: 989px) {
+/* @media screen and (max-width: 989px) {
   .product-card-wrapper .quick-add {
     margin-top: 1.5rem;
   }
 }
 
 @media screen and (min-width: 990px) {
-  /* Stretch the link to cover the entire card over the image only when quick-add is present */
   .product-card-wrapper:has(.quick-add, .quick-add-bulk) .card__heading a::after {
     top: -10000px;
   }
+} */
+
+.product-card-wrapper .quick-add,
+.product-card-wrapper quick-add-bulk {
+  margin-top: 1.5rem;
+  position: relative;
+  z-index: 2;
 }
+

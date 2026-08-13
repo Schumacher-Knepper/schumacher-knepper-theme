@@ -39,6 +39,7 @@
             "heading": "Three Centuries of Moselle Mastery",
             "heading_size": "h0",
             "subheading": "Cultivating the treasured hillsides of Wintrange since 1714. Discover Domaine Viticole Schumacher-Knepper—where an enduring family legacy meets the modern art of Luxembourgish winemaking.",
+            "enable_countdown": false,
             "button_label": "Discover Our Heritage",
             "link": "shopify://pages/our-story",
             "button_style_secondary": false,
