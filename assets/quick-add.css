@@ -433,7 +433,7 @@ quick-add-bulk .quantity__input {
 }
 
 /* Quick Add Desktop Hover Positioning */
-@media screen and (min-width: 990px) {
+/* @media screen and (min-width: 990px) {
   .product-card-wrapper .card > .card__content {
     position: relative;
   }
@@ -461,7 +461,6 @@ quick-add-bulk .quantity__input {
     transform: translateY(-100%);
   }
 
-  /* Fade the child button directly to preserve backdrop-filter */
   .product-card-wrapper .card > .card__content > .quick-add .quick-add__submit,
   .product-card-wrapper .card > .card__content > quick-add-bulk .quick-add__submit {
     opacity: 0;
@@ -472,4 +471,4 @@ quick-add-bulk .quantity__input {
   .product-card-wrapper:hover .card > .card__content > quick-add-bulk .quick-add__submit {
     opacity: 1;
   }
-}
+} */
