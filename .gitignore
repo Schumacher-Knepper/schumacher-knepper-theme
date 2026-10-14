@@ -8,3 +8,5 @@
 ehthumbs.db
 Thumbs.db
 .shopify
+.idea
+node_modules

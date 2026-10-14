@@ -8,7 +8,9 @@
     "push": "shopify theme push --store schumacher-knepper-v2",
     "check": "shopify theme check",
     "login": "shopify login",
-    "logout": "shopify logout"
+    "logout": "shopify logout",
+    "docs": "npm --prefix documentation run build",
+    "docs:sync": "npm --prefix documentation run sync"
   },
   "repository": {
     "type": "git",

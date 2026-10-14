@@ -1,0 +1,13 @@
+{
+  "name": "schumacher-knepper-docs",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "build:md": "node scripts/build.mjs --no-pdf",
+    "sync": "node scripts/build.mjs --sync"
+  },
+  "devDependencies": {
+    "puppeteer": "^25.13.0"
+  }
+}
